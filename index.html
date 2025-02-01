@@ -44,15 +44,14 @@
 
 <body class="sora-font">
 
-    <header>
+    <header class="md:container md:mx-auto px-5 md:px-20 py-5 md:py-3">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
 
-
-
-                    <img src="c2-assets/logo-header.png" alt="">
+                    <img class="" src="c2-assets/logo-header.png" alt="">
                 </div>
+                
 
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -64,37 +63,48 @@
                     </ul>
                 </div>
 
-                <div class="navbar-end space-x-4 hidden lg:flex">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <a class="btn border-accent-color text-black">Login</a>
-                    <a class="btn bg-accent-color text-white">Register</a>
+                <div class="navbar-end">
+                    <!-- Menu Icon -->
+                    <div class="dropdown flex lg:hidden relative">
+                        <div tabindex="0" role="button" class="btn btn-ghost">
+                            <img class="" src="c2-assets/menu.png" alt="">
+                        </div>
+                        <ul tabindex="0"
+                            class="menu dropdown-content bg-base-100 rounded-box z-[1] w-36 p-3 shadow-lg absolute right-5 top-14">
 
-                    
-                </div>
+                            <li><a>Product</a></li>
 
-                <div class="dropdown dropdown-end lg:hidden">
-                    <div tabindex="0" role="button" class="btn bg-transparent border-none shadow-none">
-                        <img class="ml-20" src="c2-assets/menu.png" alt="">
+                            <li><a>Services</a></li>
 
+                            <li><a>Contact Us</a></li>
+                        </ul>
                     </div>
-                    <ul tabindex="0"
-                        class="menu dropdown-content bg-base-100 rounded-box z-[1] mt-4 w-52 p-2 shadow">
-                        <li><a>Product</a></li>
 
-                        <li><a>Services</a></li>
+                    <!-- Other Navbar End Icon -->
+                    <div class="items-center space-x-4 hidden lg:flex">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <a class="btn border-accent-color text-black">Login</a>
+                        <a class="btn bg-accent-color text-white">Register</a>
+                    </div>
 
-                        <li><a>Contact Us</a></li>
-                    </ul>
+
                 </div>
+
+
             </div>
             </div>
         </nav>
 
+        <hr class="mx-auto my-2 lg:hidden bg-accent-color">
+
     </header>
 
 
-    <main>
+
+    <main class="md:container md:mx-auto px-5 md:px-20 py-5 md:py-3">
+
+        
 
     </main>
 
