@@ -128,10 +128,10 @@
 
 
 
-    <main class="md:container md:mx-auto px-5 md:px-20 py-5 md:py-3">
+    <main class="">
 
         <!-- Services Section -->
-        <section class="my-28">
+        <section class="my-28 md:container md:mx-auto px-5 md:px-20 py-5 md:py-3">
             <div>
                 <h1 class="text-3xl font-bold text-left mb-12 text-accent-color mx-8 md:mx-0">Services</h1>
             </div>
@@ -186,59 +186,129 @@
 
 
         <!-- Popular Product Section -->
-        <section class="my-28">
+        <section class="bg-accent-color-secondary">
 
-            <div>
-                <h1 class="text-3xl font-bold text-left mb-12 text-accent-color mx-8 md:mx-0">Popular Products</h1>
-            </div>
+            <section class="md:container md:mx-auto px-10 md:px-20 md:py-16">
 
-            <div class="flex flex-col md:flex-row gap-5">
-                <!-- Big Product Card -->
-                <div class="flex flex-col card max-w-md border bg-gradient-to-br from-[#53DB3A]
-             to-[#FFFFFF]">
-                    <div class="mt-10 ml-7 space-y-3">
-                        <h2 class="text-3xl font-semibold">30% off</h2>
-                        <p class="">Discover a world of treats, toys, and essentials handpicked for </p>
 
+                <div>
+                    <h1 class="text-3xl font-bold text-left mb-10 pt-28 text-accent-color">Popular Products
+                    </h1>
+                </div>
+
+
+                <div class="grid grid-cols-1 lg:grid-cols-5 gap-4">
+                    <!-- Big Product -->
+                    <div
+                        class="col-span-2 px-10 pt-5 bg-gradient-to-br from-[#53DB3A] to-white rounded-md flex flex-col gap-5">
+                        <h3 class="text-3xl text-white font-bold">30% Off</h3>
+                        <p class="">Discover a world of treats, toys, and essentials handpicked for you.</p>
+                        <button class="btn max-w-32 text-black">Buy Now</button>
+
+                        <div class="flex justify-end">
+                            <img class="" src="c2-assets/vegetable-offer.png" alt="Discount Items" class="">
+                        </div>
                     </div>
 
-                    <div class="flex">
-                        <div class="flex-1 ml-7 mt-5">
-                            <button class="btn">Buy Now</button>
-                        </div class="flex-1">
-                        <div class="justify-end mt-7 mr-3">
-                            <img class="" src="c2-assets/vegetable-offer.png" alt="">
+                    <!-- Small Products -->
+                    <div class="col-span-2 lg:col-span-3 grid grid-cols-2 lg:grid-cols-3 gap-4">
+                        <!-- Product - 1 -->
+                        <div class="bg-white p-3 rounded-lg flex items-center md:hidden lg:flex">
+                            <div>
+                                <img src="c2-assets/onion.png" alt="Onion" class="bg-accent-color-secondary rounded-md">
+                            </div>
+                            <div class="ml-4">
+                                <p class=""><i class="fa-solid fa-star text-yellow-200"></i> 4.5</p>
+                                <h4 class="text-base md:text-lg font-bold">Onion 1 KG</h4>
+                                <p class="font-semibold">$39.99</p>
+                            </div>
+                        </div>
+
+                        <!-- Product - 2 -->
+                        <div class="bg-white p-4 rounded-lg flex items-center">
+                           <div><img src="c2-assets/tomato.png" alt="Tomato" class="bg-accent-color-secondary rounded-md"></div>
+                            <div class="ml-4">
+                                <p class=""><i class="fa-solid fa-star text-yellow-200"></i> 4.5</p>
+                                <h4 class="text-base md:text-lg font-bold">Tomato 1 KG</h4>
+                                <p class="font-semibold">$39.99</p>
+                            </div>
+                        </div>
+
+                        <!-- Product - 3 -->
+                        <div class="bg-white p-4 rounded-lg flex items-center">
+                            <div><img src="c2-assets/potato.png" alt="Potato" class="bg-accent-color-secondary rounded-md"></div>
+                            <div class="ml-4">
+                                <p class=""><i class="fa-solid fa-star text-yellow-200"></i> 4.5</p>
+                                <h4 class="text-base md:text-lg font-bold">Potato 1 KG</h4>
+                                <p class="font-semibold">$39.99</p>
+                            </div>
+                        </div>
+
+                        <!-- Product - 4 -->
+                        <div class="bg-white p-4 rounded-lg hidden md:flex items-center">
+                            <div><img src="c2-assets/tomato.png" alt="Tomato" class="bg-accent-color-secondary rounded-md"></div>
+                            <div class="ml-4">
+                                <p class=""><i class="fa-solid fa-star text-yellow-200"></i> 4.5</p>
+                                <h4 class="text-base md:text-lg font-bold">Tomato 1 KG</h4>
+                                <p class="font-semibold">$39.99</p>
+                            </div>
+                        </div>
+
+                        <!-- Product - 5 -->
+                        <div class="bg-white p-4 rounded-lg flex items-center">
+                            <div><img src="c2-assets/potato.png" alt="Potato" class="bg-accent-color-secondary rounded-md"></div>
+                            <div class="ml-4">
+                                <p class=""><i class="fa-solid fa-star text-yellow-200"></i> 4.5</p>
+                                <h4 class="text-base md:text-lg font-bold">Potato 1 KG</h4>
+                                <p class="font-semibold">$39.99</p>
+                            </div>
+                        </div>
+
+                        <!-- Product - 6 -->
+                        <div class="bg-white p-4 rounded-lg flex items-center">
+                            <div><img src="c2-assets/onion.png" alt="Onion" class="bg-accent-color-secondary rounded-md"></div>
+                            <div class="ml-4">
+                                <p class=""><i class="fa-solid fa-star text-yellow-200"></i> 4.5</p>
+                                <h4 class="text-base md:text-lg font-bold">Onion 1 KG</h4>
+                                <p class="font-semibold">$39.99</p>
+                            </div>
+                        </div>
+
+                        <!-- Product - 7 -->
+                        <div class="bg-white p-4 rounded-lg flex items-center">
+                            <div><img src="c2-assets/onion.png" alt="Onion" class="bg-accent-color-secondary rounded-md"></div>
+                            <div class="ml-4">
+                                <p class=""><i class="fa-solid fa-star text-yellow-200"></i> 4.5</p>
+                                <h4 class="text-base md:text-lg font-bold">Onion 1 KG</h4>
+                                <p class="font-semibold">$39.99</p>
+                            </div>
+                        </div>
+
+                        <!-- Product - 8 -->
+                        <div class="bg-white p-4 rounded-lg  flex items-center">
+                            <div><img src="c2-assets/tomato.png" alt="Tomato" class="bg-accent-color-secondary rounded-md"></div>
+                            <div class="ml-4">
+                                <p class=""><i class="fa-solid fa-star text-yellow-200"></i> 4.5</p>
+                                <h4 class="text-base md:text-lg font-bold">Tomato 1 KG</h4>
+                                <p class="font-semibold">$39.99</p>
+                            </div>
+                        </div>
+
+                        <!-- Product - 9 -->
+                        <div class="bg-white p-4 rounded-lg  flex items-center">
+                            <div><img src="c2-assets/potato.png" alt="Potato" class="bg-accent-color-secondary rounded-md"></div>
+                            <div class="ml-4">
+                                <p class=""><i class="fa-solid fa-star text-yellow-200"></i> 4.5</p>
+                                <h4 class="text-base md:text-lg font-bold">Potato 1 KG</h4>
+                                <p class="font-semibold">$39.99</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
 
-                <!-- Small Small Cards -->
-                <div class="grid grid-cols-2 md:grid-cols-3 gap-5">
 
-                    <!-- Card - 1 -->
-                    <div class="border rounded-md flex">
-
-                        <div class="bg-accent-color-secondary m-3">
-                            <img class="" src="c2-assets/onion.png" alt="veg" />
-                        </div>
-
-                        <div class="m-3">
-                            <h5 class="text-left"><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h5>
-                            <h3 class="text-left font-medium">Onion 1 KG</h3>
-                            <h5 class="text-left font-medium">$39.99</h5>
-
-                        </div>
-                    </div>
-
-                  
-                   
-
-                </div>
-
-            </div>
-
-
+            </section>
 
 
         </section>
@@ -249,128 +319,10 @@
     </main>
 
 
-    <footer class="hidden">
+    <footer class="">
 
 
-         <!-- Card - 2 -->
-         <div class="border rounded-md flex max-w-72">
 
-            <div class="bg-accent-color-secondary m-3 max-w-20">
-                <img class="" src="c2-assets/onion.png" alt="veg" />
-            </div>
-
-            <div class="m-3">
-                <h5 class="text-left"><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h5>
-                <h3 class="text-left font-medium">Onion 1 KG</h3>
-                <h5 class="text-left font-medium">$39.99</h5>
-
-            </div>
-        </div>
-
-        <!-- Card - 3 -->
-        <div class="border rounded-md flex max-w-72">
-
-            <div class="bg-accent-color-secondary m-3 max-w-20">
-                <img class="" src="c2-assets/onion.png" alt="veg" />
-            </div>
-
-            <div class="m-3">
-                <h5 class="text-left"><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h5>
-                <h3 class="text-left font-medium">Onion 1 KG</h3>
-                <h5 class="text-left font-medium">$39.99</h5>
-
-            </div>
-        </div>
-
-        <!-- Card - 4 -->
-        <div class="border rounded-md flex max-w-72">
-
-            <div class="bg-accent-color-secondary m-3 max-w-20">
-                <img class="" src="c2-assets/onion.png" alt="veg" />
-            </div>
-
-            <div class="m-3">
-                <h5 class="text-left"><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h5>
-                <h3 class="text-left font-medium">Onion 1 KG</h3>
-                <h5 class="text-left font-medium">$39.99</h5>
-
-            </div>
-        </div>
-
-        <!-- Card - 5 -->
-        <div class="border rounded-md flex max-w-72">
-
-            <div class="bg-accent-color-secondary m-3 max-w-20">
-                <img class="" src="c2-assets/onion.png" alt="veg" />
-            </div>
-
-            <div class="m-3">
-                <h5 class="text-left"><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h5>
-                <h3 class="text-left font-medium">Onion 1 KG</h3>
-                <h5 class="text-left font-medium">$39.99</h5>
-
-            </div>
-        </div>
-
-        <!-- Card - 6 -->
-        <div class="border rounded-md flex max-w-72">
-
-            <div class="bg-accent-color-secondary m-3 max-w-20">
-                <img class="" src="c2-assets/onion.png" alt="veg" />
-            </div>
-
-            <div class="m-3">
-                <h5 class="text-left"><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h5>
-                <h3 class="text-left font-medium">Onion 1 KG</h3>
-                <h5 class="text-left font-medium">$39.99</h5>
-
-            </div>
-        </div>
-
-        <!-- Card - 7 -->
-        <div class="border rounded-md flex max-w-72">
-
-            <div class="bg-accent-color-secondary m-3 max-w-20">
-                <img class="" src="c2-assets/onion.png" alt="veg" />
-            </div>
-
-            <div class="m-3">
-                <h5 class="text-left"><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h5>
-                <h3 class="text-left font-medium">Onion 1 KG</h3>
-                <h5 class="text-left font-medium">$39.99</h5>
-
-            </div>
-        </div>
-
-        <!-- Card - 8 -->
-        <div class="border rounded-md flex max-w-72">
-
-            <div class="bg-accent-color-secondary m-3 max-w-20">
-                <img class="" src="c2-assets/onion.png" alt="veg" />
-            </div>
-
-            <div class="m-3">
-                <h5 class="text-left"><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h5>
-                <h3 class="text-left font-medium">Onion 1 KG</h3>
-                <h5 class="text-left font-medium">$39.99</h5>
-
-            </div>
-        </div>
-
-        <!-- Card - 9 -->
-        <div class="border rounded-md flex max-w-72">
-
-            <div class="bg-accent-color-secondary m-3 max-w-20">
-                <img class="" src="c2-assets/onion.png" alt="veg" />
-            </div>
-
-            <div class="m-3">
-                <h5 class="text-left"><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h5>
-                <h3 class="text-left font-medium">Onion 1 KG</h3>
-                <h5 class="text-left font-medium">$39.99</h5>
-
-            </div>
-        </div>
     </footer>
 </body>
 
